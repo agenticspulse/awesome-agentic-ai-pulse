@@ -1,3 +1,5 @@
+<div align="center">
+
 # ⚡ Awesome Agentic AI Pulse
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -7,9 +9,15 @@
 [![Last Commit](https://img.shields.io/github/last-commit/agenticspulse/awesome-agentic-ai-pulse?style=flat-square)](https://github.com/agenticspulse/awesome-agentic-ai-pulse/commits/main)
 [![Maintained by AgenticsPulse](https://img.shields.io/badge/Maintained%20by-AgenticsPulse-blue?style=flat-square)](https://agenticspulse.com)
 
+<br/>
+
 > **The definitive curated list of production-grade autonomous multi-agent frameworks, protocols, observability tools, and architectural patterns for 2026.**
 
-Agentic systems have moved beyond demos. This repository tracks the frameworks, protocols, and tooling that actually ship in production — with emphasis on state management, observability, safety, and measurable reliability. Maintained by [AgenticsPulse](https://agenticspulse.com).
+<p align="center">
+Agentic systems have moved beyond demos. This repository tracks the frameworks, protocols, and tooling that actually ship in production — with emphasis on state management, observability, safety, and measurable reliability. Maintained by <a href="https://agenticspulse.com"><b>AgenticsPulse</b></a>.
+</p>
+
+</div>
 
 ---
 
