@@ -106,14 +106,16 @@ Production multi-agent systems fail in non-obvious ways: infinite loops, silent 
 
 ## 📖 Exclusive Architectural Guides & Tools
 
-In-depth technical blueprints and free tools published by the AgenticsPulse team:
+In-depth technical blueprints, open empirical datasets, and free developer tools published by the AgenticsPulse team:
 
+- **[The 88% Agent Production Death Rate: Multi-Step Cost Overrun & Survival Patterns](https://agenticspulse.com/posts/ai-agent-production-failure-cost-explosion-guide.html)** — Dissecting the mathematical O(N²) quadratic cost explosion in autonomous agentic loops, prompt cache invalidation, and the 4 production patterns (hierarchical context pruning, semantic circuit breakers, tiered routing, caching discipline) used by the 12% to survive.
+- **[AI Agent & FinOps Statistics 2026: Empirical Telemetry (12,400 Production Runs)](https://agenticspulse.com/posts/ai-agent-finops-statistics-2026.html)** — Groundbreaking enterprise benchmark examining real-world tool execution failure rates (18.4%), lab-to-production accuracy gaps (-18.2 pts), multi-turn context inflation (+985.9%), and the +32% production reality tax. Includes open CC-BY-4.0 CSV dataset download.
 - **[Generative Engine Optimization (GEO) in 2026 Guide](https://agenticspulse.com/posts/generative-engine-optimization-geo-ai-agents-guide-2026.html)** — How to optimize content and agent pipelines for citations in Perplexity, SearchGPT, and Grok. Includes production LangGraph audit node patterns.
-- **[Building a Production MCP Server in n8n (SSE & JSON-RPC)](https://agenticspulse.com/posts/building-production-mcp-server-n8n-guide.html)** — End-to-end guide to exposing reliable tools via the Model Context Protocol.
-- **[Real-Time LLM Token & Reasoning Cost Calculator](https://agenticspulse.com/tools/llm-pricing-calculator.html)** — Free developer utility for modeling multi-agent token budgets and cost scenarios.
+- **[Building a Production MCP Server in n8n (SSE & JSON-RPC)](https://agenticspulse.com/posts/building-production-mcp-server-n8n-guide.html)** — End-to-end guide to exposing reliable tools via the Model Context Protocol protected by Cloudflare Zero Trust tunnels.
+- **[Real-Time LLM Token & Reasoning Cost Calculator](https://agenticspulse.com/tools/llm-pricing-calculator.html)** — Free developer utility for modeling multi-agent token compounding budgets, prompt caching ROI, and reality tax scenarios.
 - **[Agent Observability Patterns for Production Multi-Agent Workflows](https://agenticspulse.com/posts/agent-observability-patterns-production-guide.html)** — Practical patterns for tracing, cost attribution, and failure isolation across agent graphs.
 
-These resources are maintained as living documents and frequently referenced by teams building production agent systems.
+These resources are maintained as living documents and frequently referenced by engineering teams building production agent systems.
 
 ---
 
