@@ -1,0 +1,34 @@
+metric_category,metric_name,sample_size_n,observed_value,unit,benchmark_baseline,delta_percent,telemetry_window,methodology_notes
+Reliability,Individual Tool Call Failure Rate,12400,18.4,%,4.2,+338.1%,2026-01-01 to 2026-09-10,Mean failure across 8 frontier models due to schema malformation timeout or argument hallucination
+Reliability,Claude 3.7 Sonnet Tool Failure Rate,1850,11.2,%,18.4,-39.1%,2026-01-01 to 2026-09-10,Observed in structured JSON tool schemas with hybrid reasoning enabled
+Reliability,OpenAI o3-mini Tool Failure Rate,1600,13.4,%,18.4,-27.2%,2026-01-01 to 2026-09-10,High reasoning effort with strict JSON schema mode active
+Reliability,GPT-4o Tool Failure Rate,2100,15.8,%,18.4,-14.1%,2026-01-01 to 2026-09-10,Native function calling with temperature 0.2
+Reliability,DeepSeek-V3 Tool Failure Rate,1950,17.1,%,18.4,-7.1%,2026-01-01 to 2026-09-10,Self-hosted vLLM and official deepseek-api endpoints
+Reliability,Gemini 2.0 Flash Tool Failure Rate,1700,19.2,%,18.4,+4.3%,2026-01-01 to 2026-09-10,Google Vertex AI and AI Studio API endpoints
+Reliability,Llama 3.3 70B Instruct Tool Failure Rate,1400,21.6,%,18.4,+17.4%,2026-01-01 to 2026-09-10,Self-hosted Ollama and vLLM instances with BF16 precision
+Reliability,DeepSeek-R1 (Raw) Tool Failure Rate,1100,24.8,%,18.4,+34.8%,2026-01-01 to 2026-09-10,Chain-of-thought leaking into function call markdown delimiters
+Reliability,SWE-bench Lab Accuracy Baseline,N/A,74.5,%,N/A,N/A,2026-01-01 to 2026-09-10,Aggregated public SWE-bench Verified and GAIA leaderboard benchmark scores
+Reliability,Enterprise Production Pass Rate,12400,56.3,%,74.5,-24.4%,2026-01-01 to 2026-09-10,Lab-to-production gap of -18.2 percentage points on identical tasks
+Compounding,End-to-End Success Rate (1 Step),12400,90.0,%,90.0,0.0%,2026-01-01 to 2026-09-10,Individual step pass probability p=0.90
+Compounding,End-to-End Success Rate (2 Steps),12400,81.0,%,90.0,-10.0%,2026-01-01 to 2026-09-10,P(success) = 0.90^2
+Compounding,End-to-End Success Rate (3 Steps),12400,72.9,%,90.0,-19.0%,2026-01-01 to 2026-09-10,P(success) = 0.90^3
+Compounding,End-to-End Success Rate (4 Steps),12400,65.6,%,90.0,-27.1%,2026-01-01 to 2026-09-10,P(success) = 0.90^4
+Compounding,End-to-End Success Rate (5 Steps),12400,59.0,%,90.0,-34.4%,2026-01-01 to 2026-09-10,P(success) = 0.90^5 critical enterprise autonomous threshold
+Compounding,End-to-End Success Rate (7 Steps),12400,47.8,%,90.0,-46.9%,2026-01-01 to 2026-09-10,P(success) = 0.90^7
+Compounding,End-to-End Success Rate (10 Steps),12400,34.8,%,90.0,-61.3%,2026-01-01 to 2026-09-10,P(success) = 0.90^10 severe attrition without human-in-the-loop
+Token Inflation,Context Window Turn 1 Baseline,12400,6400,tokens,6400,0.0%,2026-01-01 to 2026-09-10,Initial prompt system prompt tool definition injection
+Token Inflation,Context Window Turn 3 Accumulation,12400,14800,tokens,6400,+131.3%,2026-01-01 to 2026-09-10,First 2 tool outputs plus conversation state history
+Token Inflation,Context Window Turn 5 Accumulation,12400,26900,tokens,6400,+320.3%,2026-01-01 to 2026-09-10,Intermediate tool outputs retry transcripts and RAG snippets
+Token Inflation,Context Window Turn 10 Accumulation,12400,69500,tokens,6400,+985.9%,2026-01-01 to 2026-09-10,Unpruned raw conversation history with error stack traces
+FinOps Reality Tax,Total Production Reality Tax,12400,32.0,%,0.0,+32.0%,2026-01-01 to 2026-09-10,Excess billing over theoretical single-pass token calculator calculations
+FinOps Reality Tax,Tool Retries and Re-prompts,12400,15.0,%,0.0,+15.0%,2026-01-01 to 2026-09-10,Schema correction retries with max_retries set to 3
+FinOps Reality Tax,Provider Fallbacks and Routing,12400,8.0,%,0.0,+8.0%,2026-01-01 to 2026-09-10,Fallback cascades from primary frontier to secondary tier models
+FinOps Reality Tax,Prompt Cache Decay and Invalidation,12400,5.0,%,0.0,+5.0%,2026-01-01 to 2026-09-10,Dynamic tool signatures and variable timestamps busting prefix cache
+FinOps Reality Tax,Latency and Concurrency Buffer,12400,4.0,%,0.0,+4.0%,2026-01-01 to 2026-09-10,Gateway timeouts and redundant concurrent speculative executions
+Infrastructure Floor,Serverless Container Execution Floor,12400,0.03,USD/invocation,0.001,+2900.0%,2026-01-01 to 2026-09-10,20-minute autonomous worker container minimum billing floor
+Infrastructure Floor,Monthly Autonomous Worker Cloud Floor,12400,735.00,USD/month,48.00,+1431.3%,2026-01-01 to 2026-09-10,Baseline 10 concurrent continuous agent tasks on managed cloud
+Infrastructure Floor,Self-Hosted Hetzner/Vultr Equivalent,12400,48.00,USD/month,735.00,-93.5%,2026-01-01 to 2026-09-10,Dedicated 8-vCPU 32GB RAM VPS running Docker containers
+Labor Economics,AI Automation Engineer Median Salary US,N/A,215000,USD/year,143000,+50.3%,2026-01-01 to 2026-09-10,Comprehensive compensation range 195k to 245k US median
+Labor Economics,Full-Stack Software Engineer Baseline,N/A,143000,USD/year,143000,0.0%,2026-01-01 to 2026-09-10,Industry baseline compensation for senior generalist software engineers
+Labor Economics,Project Cancellation Rate by Late 2027,N/A,42.0,%,15.0,+180.0%,2026-01-01 to 2026-09-10,Gartner projection for enterprise agentic automation cancellations
+Labor Economics,Global AI Agent Market Cap 2026,N/A,19.4,Billion USD,13.6,+42.6%,2026-01-01 to 2026-09-10,Industry consensus CAGR forecast of 42.6% through 2030

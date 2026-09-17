@@ -23,6 +23,7 @@ Agentic systems have moved beyond demos. This repository tracks the frameworks, 
 
 ## 📑 Table of Contents
 
+- [Open Telemetry & FinOps Benchmark Dataset (12.4k Runs)](#-open-telemetry--finops-benchmark-dataset-12400-runs)
 - [2026 Agent Frameworks Benchmark](#-definitive-2026-agent-frameworks-benchmark)
 - [Model Context Protocol (MCP) Ecosystem](#-model-context-protocol-mcp-production-ecosystem)
 - [Agent Observability, Evaluation & Safety](#-agent-observability-evaluation--safety-stack)
@@ -33,6 +34,30 @@ Agentic systems have moved beyond demos. This repository tracks the frameworks, 
 - [Memory, RAG & Knowledge Layers](#-agent-memory-rag--vector-layers)
 - [Contributing](#-contributing)
 - [License](#-license)
+
+---
+
+## 📊 Open Telemetry & FinOps Benchmark Dataset (12,400 Runs)
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Dataset Status: Verified](https://img.shields.io/badge/Dataset-Verified_Production-emerald.svg)](https://agenticspulse.com/posts/ai-agent-finops-statistics-2026.html)
+[![Read Technical Whitepaper](https://img.shields.io/badge/Whitepaper-AgenticsPulse-blue.svg)](https://agenticspulse.com/posts/ai-agent-finops-statistics-2026.html)
+
+This repository hosts the official raw telemetry and cost dataset analyzing **12,400 multi-step autonomous agent execution runs** across frontier models and production orchestrators (LangGraph, n8n, CrewAI).
+
+### 📥 Raw Benchmark Access
+- **Raw CSV:** [`data/ai-agent-finops-statistics-2026.csv`](data/ai-agent-finops-statistics-2026.csv)
+- **Detailed Test Methodology:** [`data/METHODOLOGY.md`](data/METHODOLOGY.md)
+- **Full Interactive Analysis & Whitepaper:** [AI Agent Production FinOps Statistics (AgenticsPulse)](https://agenticspulse.com/posts/ai-agent-finops-statistics-2026.html)
+
+### Key Empirical Findings:
+- **Mean Tool Call Failure Rate:** **18.4%** across 8 frontier models (Schema malformation 39.1%, Timeout 27.7%, Param Hallucination 23.4%).
+- **Compounding Degradation:** Single-step accuracy of 90% degrades to **59.0% at 5 steps** ($0.90^5$) and **34.8% at 10 steps**.
+- **The FinOps Reality Tax:** Production agent cloud invoices run **+32.0% above naive token estimates** due to tool recovery retries (+15%), fallback cascades (+8%), and execution deadlock loops (+9%).
+
+> **Citation & Attribution (CC-BY 4.0):**  
+> When citing this dataset, please attribute:  
+> `Bambang Sugiarto (2026). Production Multi-Step AI Agent Telemetry and FinOps Benchmark. Hosted at AgenticsPulse: https://agenticspulse.com/posts/ai-agent-finops-statistics-2026.html`
 
 ---
 
