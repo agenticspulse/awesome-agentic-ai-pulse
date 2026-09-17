@@ -181,7 +181,7 @@ These resources are maintained as living documents and frequently referenced by 
 
 ## 🧠 Agent Memory, RAG & Vector Layers
 
-- **[Screenpipe](https://github.com/mediar-ai/screenpipe)** — Open-source 24/7 local screen + audio capture and memory pipeline. Exposes a clean MCP interface for agents to query local context privately without cloud dependence.
+- **[Screenpipe](https://github.com/screenpipe/screenpipe)** - Source-available screen and audio history with MCP/local API retrieval for agents; captured history stays local by default, while configured cloud features and connected assistants can process context off-device.
 - **[Mem0](https://github.com/mem0ai/mem0)** — Dedicated memory layer for personalized AI agents.
 - **[Zep](https://github.com/getzep/zep)** — Long-term memory and knowledge graph store designed for agents.
 - **[LangGraph Memory / Checkpointers](https://langchain-ai.github.io/langgraph/)** — Built-in durable state and memory primitives.
