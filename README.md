@@ -181,6 +181,7 @@ These resources are maintained as living documents and frequently referenced by 
 
 ## 🧠 Agent Memory, RAG & Vector Layers
 
+- **[Hyperconsciousness](https://github.com/louis030195/hyperconsciousness)**: Developer-alpha Rust knowledge store with encrypted, append-only records, device sync, lexical search, and scoped, expiring grants for MCP access. MIT licensed.
 - **[Screenpipe](https://github.com/mediar-ai/screenpipe)** — Open-source 24/7 local screen + audio capture and memory pipeline. Exposes a clean MCP interface for agents to query local context privately without cloud dependence.
 - **[Mem0](https://github.com/mem0ai/mem0)** — Dedicated memory layer for personalized AI agents.
 - **[Zep](https://github.com/getzep/zep)** — Long-term memory and knowledge graph store designed for agents.
