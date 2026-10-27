@@ -132,7 +132,19 @@ Production multi-agent systems fail in non-obvious ways: infinite loops, silent 
 ## 📖 Exclusive Architectural Guides & Tools
 
 In-depth technical blueprints, open empirical datasets, and free developer tools published by the AgenticsPulse team:
-
+- **[n8n on a $6-$14 VPS That Actually Survived Production: The 2026 SRE Hardening
+Guide](https://agenticspulse.com/posts/self-hosted-n8n-vps-operational-reality-survival-guide.html)** - Groundbreaking SRE field runbook (Grok Score
+9.15/10) examining the real-world operational minefield of running production n8n workflows: mandatory PostgreSQL 16 Alpine isolation, NVMe swap
+emergency airbags, Cloudflare Tunnel 1033 flap prevention, 99.82% measured uptime, and verified 18-minute RTO recovery drills.
+- **[Taming the Context Tax: The Production MCP Playbook for Claude Code & Cursor (2026
+Benchmarks)](https://agenticspulse.com/posts/taming-mcp-context-tax-claude-code-cursor-guide-2026.html)** - Comprehensive Model Context Protocol
+benchmarking (Grok Score 8.6/10) measuring the raw ~67,300 token schema tax injected before prompt #1 across dual tokenizers (Claude Sonnet vs.
+tiktoken o200k_base). Includes open telemetry dataset with -61.4% deferred tool loading benchmarks: **[Download
+mcp-context-tax-benchmarks-v1.json](https://agenticspulse.com/data/mcp-context-tax-benchmarks-v1.json)**.
+- **[The True Cost of Autonomous Coding Agents: Token Traps & FinOps Circuit
+Breakers](https://agenticspulse.com/posts/true-cost-coding-agents-2026-token-traps.html)** - Empirical post-mortem of autonomous debugging runs
+($18.40 burned in 45 minutes), dissecting the 60-70% file re-read loop tax, tool output truncation discipline, and the minimal viable cost circuit
+breakers.
 - **[The 88% Agent Production Death Rate: Multi-Step Cost Overrun & Survival Patterns](https://agenticspulse.com/posts/ai-agent-production-failure-cost-explosion-guide.html)** — Dissecting the mathematical O(N²) quadratic cost explosion in autonomous agentic loops, prompt cache invalidation, and the 4 production patterns (hierarchical context pruning, semantic circuit breakers, tiered routing, caching discipline) used by the 12% to survive.
 - **[AI Agent & FinOps Statistics 2026: Empirical Telemetry (12,400 Production Runs)](https://agenticspulse.com/posts/ai-agent-finops-statistics-2026.html)** — Groundbreaking enterprise benchmark examining real-world tool execution failure rates (18.4%), lab-to-production accuracy gaps (-18.2 pts), multi-turn context inflation (+985.9%), and the +32% production reality tax. Includes open CC-BY-4.0 CSV dataset download.
 - **[Generative Engine Optimization (GEO) in 2026 Guide](https://agenticspulse.com/posts/generative-engine-optimization-geo-ai-agents-guide-2026.html)** — How to optimize content and agent pipelines for citations in Perplexity, SearchGPT, and Grok. Includes production LangGraph audit node patterns.
