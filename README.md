@@ -86,6 +86,7 @@ Comparison of the most widely adopted frameworks for building production multi-a
 - **[MCP Postgres](https://github.com/modelcontextprotocol/servers)** — Official reference server for PostgreSQL (query, schema inspection, safe writes).
 - **[MCP SQLite](https://github.com/modelcontextprotocol/servers)** — Lightweight local database access.
 - **[Supabase MCP](https://github.com/supabase-community)** — Community servers for Supabase (Auth, DB, Storage).
+- **[Invokely MCP Connector](https://github.com/estevecastells/invokely-mcp-connector)**: MIT-licensed Node 22 stdio adapter for querying official statistics through Invokely's hosted MCP service; the connector repository does not include the service backend.
 
 ### Web Scraping & Browser
 - **[Browserbase / Stagehand MCP](https://www.browserbase.com)** — Reliable browser sessions with stealth and observability.
